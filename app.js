@@ -3,7 +3,7 @@ const openFace = document.querySelector('.open')
 
 // add event listner
 
-closedFace.addEventListener('click', () => {
+closedFace.addEventListener('mouseenter', () => {
     if (openFace.classList.contains('open')) {
         openFace.classList.add('active');
         closedFace.classList.remove('active');
